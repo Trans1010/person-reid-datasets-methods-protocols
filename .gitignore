@@ -1,0 +1,20 @@
+# Local/editor files
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+*.bak
+
+# Do not add restricted dataset files
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.mp4
+*.avi
+*.mov
+*.zip
+*.7z
+*.rar

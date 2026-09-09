@@ -1,0 +1,31 @@
+﻿Dataset,Role,IDs / Images,Modality,Platform,Time / Clothing,Unit,Main Query–Gallery
+VIPeR [4],Ground RGB core,"632 / 1,264",RGB,Ground,Short-term,Image,Two-camera cross-view; 2008 representative paper
+"CUHK03 [5, 22]",Detection-error bridge,"1,360 / 13,164 Original; 1,467 / 14,096 NP",RGB,Ground,Short-term,Image,Manual/detected boxes; Original and NP protocols
+Market-1501 [6],Large-gallery core,"1,501 / 32,668",RGB,Ground,Short-term,Image,Detected boxes; distractor gallery
+MSMT17 [7],Multi-environment RGB core,"4,101 / 126,441",RGB,Ground,Multiple time periods,Image,Multi-camera RGB retrieval
+RegDB [32],Cross-spectrum branch,"412 / 8,240","RGB, TIR",Ground,Short-term,Image,Visible↔Thermal; two directions
+SYSU-MM01 [20],Multi-camera cross-spectrum,"491 / raw: 287,628 RGB + 15,792 IR; eval: 45,863","RGB, IR",Ground (4 RGB + 2 IR),Indoor/outdoor; single/multi-shot,Image,All-search / Indoor-search; filtered subset separated from raw collection
+RGBNT201 [33],Aligned tri-modal bridge,"201 / 14,361; 4,787 triplets","RGB, NIR, TIR",Ground,Synchronized capture,Image,Aligned RGB–NIR–TIR matching
+PRAI-1581 [21],UAV branch,"1,581 / 39,461",RGB,UAV (2 DJI; 20–60 m),Short-term; ~60 videos,Image,UAV intra-platform retrieval; formal 2021 volume; Early Access 2020
+AG-ReID.v2 [35],Aerial–ground cross-platform,"1,615 / 100,502",RGB,"UAV, CCTV, wearable",Short-term; 15 soft attributes,Image,"A→C, A→W, C→A, W→A"
+CARGO [36],Synthetic aerial–ground bridge,"5,000 / 108,563",RGB,5 aerial + 8 ground,Synthetic; controllable,Image,Original A↔G; later ALL mixed-platform protocol
+CP2108 [9],Time and environment combination,"2,108 / 142,817",RGB,17 UAV + 22 ground,"Seasons, day/night, partial clothing change",Image,ALL mixed retrieval; A→G and G→A separately
+AT-USTC [37],Spectrum and long-term clothing,"270 / 135,465","RGB, IR",8 RGB + 8 IR cameras,One year; 710 clothing sets,Image,Six Anytime-ReID scenarios
+MP-ReID [8],"Multimodal, multiplatform fixed settings","1,930 / 136,156","RGB, IR, TIR",Ground + UAV,Short-term,Image,"Six pair experiments, twelve directions; pair-specific splits"
+WHU-MARS [10],Heterogeneous mixed-gallery,"2,337 / 434,620","RGB, NIR, TIR","UAV, Ground","Seasons, day/night",Image,AS-ReID: known-source heterogeneous mixed gallery
+CUHK01 [77],Early ground RGB,"971 / 3,884",RGB,Ground,Short-term,Image,Cross-camera matching
+CUHK02 [78],Early ground RGB,"1,816 / 7,264",RGB,Ground,Short-term,Image,Cross-camera matching
+GRID [79],Gallery-distractor milestone,250 matched IDs + distractors,RGB,Ground,Short-term,Image,Matched pairs with distractor gallery
+"DukeMTMC-reID [80, 81]",ReID derivative of DukeMTMC; large ground-RGB benchmark,"1,404 / 36,411",RGB,Ground,Short-term,Image,"702 train / 702 test IDs; 2,228 query; 17,661 gallery; detected-box multi-camera retrieval"
+MARS [38],Video ReID milestone,"1,261 / 20,478 tracklets",RGB,Ground,Short-term,Tracklet,Video query–gallery retrieval
+iLIDS-VID [39],Early video ReID,300 / 600 tracklets,RGB,Ground,Short-term,Tracklet,Cross-camera video retrieval
+LLCM [51],Low-light VI branch,"1,064 / 46,767 boxes","RGB, IR",Ground,Low-light,Image,Visible↔Infrared low-light retrieval
+HITSZ-VCM [40],VI × video combination,"927 / 21,863 tracklets","RGB, IR",Ground,Video; low-light,Tracklet,Visible–infrared video retrieval
+PRCC [82],Clothes-changing bridge,"221 / 33,698",RGB,Ground,Clothing change,Image,Same-clothes and clothes-changing protocols
+LTCC [66],Long-term clothing change,"152 / 17,138",RGB,Ground,Two months; clothing change,Image,Long-term clothes-changing retrieval
+VC-Clothes [83],Synthetic clothing change,"512 / 19,060",RGB,Ground,Synthetic clothing change,Image,Synthetic cross-clothes retrieval
+DeepChange [67],Long-term clothing benchmark,"1,121 / 178,407 boxes",RGB,Ground,12 months; clothing change,Image,Long-term cross-clothes retrieval
+AG-ReID.v1 [84],Early aerial–ground version,"388 / 21,983",RGB,"UAV, Ground",Short-term,Image,Aerial↔Ground
+AG-VPReID [41],Aerial–ground video combination,"6,632 / 32,321 tracklets / 9.6M+ frames",RGB,"Drone, CCTV, wearable",Video; multi-platform,Tracklet,Aerial–ground video retrieval
+CUHK-PEDES [42],Text-query branch,"13,003 / 40,206 images / 80,412 texts",RGB + text,Ground,Short-term,Image + text,Text→image person retrieval
+RSTPReid [43],Text-query bridge,"4,101 / 20,505 images",RGB + text,Ground,Short-term,Image + text,Text→image person retrieval

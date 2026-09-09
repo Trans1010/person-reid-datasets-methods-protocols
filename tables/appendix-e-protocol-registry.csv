@@ -1,0 +1,15 @@
+﻿Dataset / version,Training split,Test split,Query,Gallery,Direction,Mixed-source?,Repetitions,Same-camera rule,Evidence boundary
+CUHK03 Original [5],Original,Original,Manual / detected image,Manual / detected image,Cross-camera,No,Protocol-dependent,Protocol-dependent,Original release statistics
+CUHK03-NP [22],767,700,"1,400 queries","5,328 / 5,332",Fixed NP,No,Fixed split,Junk same-camera positives,NP protocol only
+Market-1501 [6],751,750,"3,368","15,913",Cross-camera,No,Fixed split,Same-camera junk filtered,Detected-box benchmark
+RegDB [32],206,206,Visible or thermal,Opposite modality,V→T; T→V,No,10 trials,N/A / protocol-specific,Cross-spectrum pair
+SYSU All [20],296+99,96,IR,RGB,All-search,No,Single / multi-shot,Indoor/outdoor rules,Filtered evaluation subset
+SYSU Indoor [20],296+99,96,IR,RGB indoor,Indoor-search,No,Single / multi-shot,Indoor camera rules,Filtered evaluation subset
+AG-ReID.v2 [35],807,808,"A, C or W",Specified target platform,A→C; A→W; C→A; W→A,No,Fixed split,Platform-specific,No mixed gallery
+CP2108 ALL [9],"1,442",666,Known source,Aerial + ground RGB,ALL,Yes,Fixed split,Protocol-specific,Mixed-platform RGB gallery
+CP2108 A↔G [9],"1,442",666,Aerial / ground,Opposite platform,A→G; G→A,No,Fixed split,Protocol-specific,Fixed direction only
+CARGO [36],"2,500 IDs / 51,451 images","2,500 IDs / 51,024 images",Aerial / ground source-specific,Opposite platform; ALL where reported,Original A→G / G→A; later ALL mixed-platform,No (fixed A↔G); Yes (ALL),Protocol-specific,Protocol-specific,Fixed A↔G does not establish universal mixed-gallery ability; ALL supports only its reported mixed-platform scope
+AT-USTC [37],135 IDs,135 IDs,RGB / IR,Ground (8 RGB + 8 IR cameras),Six Anytime-ReID scenarios,No (scenario-specific; mixed gallery not established),Scenario-specific,Protocol-specific,Supports spectrum-time/clothing/anytime evaluation; does not by itself establish mixed-gallery retrieval
+MP-ReID [8],Pair-specific,Pair-specific,"GR, GI, UR, UT",Pair-specific,Six pairs × two directions,No,Pair-specific,Pair-specific,No joint split implied
+WHU-MARS-2337 (AS-ReID) [10],"1,000 IDs / 217,504 images","1,337 IDs / 217,116 gallery images; 15,020 query images",Any known scenario,All known scenarios,Any-scenario,Yes,Fixed benchmark,Closed-world identity,Known-source heterogeneous mixed gallery
+WHU-MARS-1000 (AS-ReID) [10],"500 IDs / 92,313 images","500 IDs / 93,609 gallery images; 6,405 query images",Any known scenario,All known scenarios,Any-scenario,Yes,Fixed benchmark,Closed-world identity,Known-source closed-world heterogeneous mixed gallery; subset of WHU-MARS-2337 split
