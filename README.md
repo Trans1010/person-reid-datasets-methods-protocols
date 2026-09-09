@@ -30,3 +30,6 @@ Please cite the associated review manuscript and, when referring to a specific d
 
 Repository: `git@github.com:Trans1010/person-reid-datasets-methods-protocols.git`
 Last local audit: 2026-09-09.
+
+- supplementary/ReID_Review_Supplementary_Appendices_A-E.docx: standalone supplementary appendices A¨CE for submission.
+
