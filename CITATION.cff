@@ -2,5 +2,10 @@ cff-version: 1.2.0
 message: "If you use these supplementary materials, please cite the associated review manuscript and the original sources listed in the evidence registry."
 title: "Person Re-ID Datasets, Methods, Evidence, and Protocols"
 type: dataset
-date-released: 2026-09-09
+authors:
+  - family-names: "Wang"
+    given-names: "Zehao"
+version: "1.1.0"
+date-released: 2026-09-17
 repository-code: "https://github.com/Trans1010/person-reid-datasets-methods-protocols"
+license: "CC-BY-4.0"

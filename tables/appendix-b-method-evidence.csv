@@ -1,18 +1,18 @@
 ﻿Method,Original design target,Original benchmarks,Later re-evaluated on,Unified/shared model?,Train scenario labels,Test scenario labels,Direct evidence,Evidence boundary
-XQDA [45],Ground RGB,"VIPeR, Market-1501",—,No,No,No,Ground RGB metric learning,No cross-spectrum/platform evidence
-PCB [46],Ground RGB,Market-1501,—,No,No,No,Ground RGB local parts,No mixed-gallery evidence
-BoT [47],Ground RGB,"Market-1501, MSMT17",WHU-MARS AS-ReID,Later baseline only,No,No,Direct on original and later benchmark,Later evaluation does not change original target
+XQDA [51],Ground RGB,"VIPeR, Market-1501",—,No,No,No,Ground RGB metric learning,No cross-spectrum/platform evidence
+PCB [59],Ground RGB,Market-1501,—,No,No,No,Ground RGB local parts,No mixed-gallery evidence
+BoT [57],Ground RGB,"Market-1501, MSMT17",WHU-MARS AS-ReID,Later baseline only,No,No,Direct on original and later benchmark,Later evaluation does not change original target
 AGW [1],Ground RGB,"Market-1501, MSMT17",WHU-MARS AS-ReID,Later baseline only,No,No,Ground RGB and later mixed-gallery baseline,No original mixed-source design
-TransReID [25],Ground RGB,"Market-1501, MSMT17","MP-ReID, WHU-MARS",Shared backbone; later tests,Sometimes,Sometimes,Direct on listed protocols,Original design remains Ground RGB
-CAJ [50],VI-ReID,"SYSU-MM01, RegDB",MP-ReID,Pair-specific,Yes,Yes,Visible–infrared protocols,No direct mixed-gallery evidence
-DEEN [51],VI-ReID,"SYSU-MM01, LLCM",MP-ReID,Pair-specific,Yes,Yes,VI and low-light protocols,No direct platform-combination evidence
-SAAI [52],VI-ReID,SYSU-MM01,MP-ReID,Pair-specific,Yes,Yes,Identity-level cross-spectrum alignment,No mixed-gallery evidence
-CSDN [54],VI-ReID,SYSU-MM01,MP-ReID,Pair-specific,Yes,Yes,CLIP-assisted VI retrieval,No direct open-identity evidence
-RotTrans [34],UAV RGB,PRAI-1581,—,No,No,No,UAV intra-platform,No aerial–ground evidence
-VDT [36],Aerial–ground,"CARGO, AG-ReID",CP2108,Pair-specific,Yes,No,Original aerial–ground protocols; later CP2108 baseline,Later CP2108/ALL evidence does not change original design target
-VIF-AGReID [56],Aerial–ground,"AG-ReID, CARGO",—,Pair-specific,Yes,No,Aerial–ground cross-platform,No cross-spectrum mixed-gallery evidence
-ViSA [57],Aerial–ground,"AG-ReID, CARGO, LAGPeR",—,Pair-specific,Yes,Yes,Viewpoint-aware aerial–ground,No proof of universal mixed-gallery ability
+TransReID [28],Ground RGB,"Market-1501, MSMT17","MP-ReID, WHU-MARS",Shared backbone; later tests,Protocol-dependent,Protocol-dependent,Direct on listed protocols,Original design remains Ground RGB
+CAJ [66],VI-ReID,"SYSU-MM01, RegDB",MP-ReID,Pair-specific,Yes,Yes,Visible–infrared protocols,No direct mixed-gallery evidence
+DEEN [67],VI-ReID,"SYSU-MM01, LLCM",MP-ReID,Pair-specific,Yes,Yes,VI and low-light protocols,No direct platform-combination evidence
+SAAI [71],VI-ReID,SYSU-MM01,MP-ReID,Pair-specific,Yes,Yes,Identity-level cross-spectrum alignment,No mixed-gallery evidence
+CSDN [73],VI-ReID,SYSU-MM01,MP-ReID,Pair-specific,Yes,Yes,CLIP-assisted VI retrieval,No direct open-identity evidence
+RotTrans [38],UAV RGB,PRAI-1581,—,No,No,No,UAV intra-platform,No aerial–ground evidence
+VDT [40],Aerial–ground,"CARGO, AG-ReID",CP2108,Pair-specific,Yes,No,Original aerial–ground protocols; later CP2108 baseline,Later CP2108/ALL evidence does not change original design target
+VIF-AGReID [81],Aerial–ground,"AG-ReID, CARGO",—,Pair-specific,Yes,No,Aerial–ground cross-platform,No cross-spectrum mixed-gallery evidence
+ViSA [82],Aerial–ground,"AG-ReID, CARGO, LAGPeR",—,Pair-specific,Yes,Yes,Viewpoint-aware aerial–ground,No proof of universal mixed-gallery ability
 SVPR-ReID [9],Aerial–ground,CP2108,—,Pair-specific,Yes,No,Semantic aerial–ground protocols,No open-identity evidence
 Uni-Prompt [8],Multimodal–multiplatform fixed settings,MP-ReID,—,One model across fixed pairs,Yes,Yes,Six pair experiments,Fixed directions are not mixed gallery
 UAD [10],Heterogeneous mixed gallery,WHU-MARS,—,Single model,Yes,Yes,AS-ReID unified ranking,Known-source closed-world scope
-CLIP-ReID [60],Ground RGB / vision-language,Market-1501,"MP-ReID, WHU-MARS",Later baseline only,No,No,Original and later baseline results,Text pretraining is not text-query evidence
+CLIP-ReID [86],Ground RGB / vision-language,Market-1501,"MP-ReID, WHU-MARS",Later baseline only,No,No,Original and later baseline results,Text pretraining is not text-query evidence

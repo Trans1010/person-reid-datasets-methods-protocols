@@ -1,19 +1,17 @@
 # Person Re-ID Datasets, Methods, Evidence, and Protocols
 
-Public companion and reproducibility repository for the protocol-oriented review of person re-identification (ReID):
+Public companion and reproducibility repository for the protocol-oriented critical review of person re-identification (ReID):
 
-> From Fixed-Source Benchmarks to Multi-Source Unified Retrieval: An Evolutionary Review of Person Re-Identification Datasets and Evaluation Protocols
+> From Fixed-Source Benchmarks to Unified Multi-Source Retrieval: Evolution of Person Re-Identification Datasets and Evaluation Protocols
 
-This repository maintains the structured research materials behind the review's Dataset-Protocol-Evidence framework. It is the public home for the machine-readable registries, evidence records, protocol descriptions, and audit materials cited by the manuscript and its supplementary appendices.
+This repository maintains the structured research materials behind the review's Dataset–Protocol–Evidence framework. It is the public home for the machine-readable registries, evidence records, protocol descriptions, and audit materials cited by the manuscript and its supplementary appendices.
 
 ## Repository Contents
 
 - `tables/`: machine-readable versions of Appendices A-E.
 - `evidence/source-manifest.csv`: Appendix C evidence sources, official or archived URLs, source versions, and checking dates.
 - `evidence/citation-audit-summary.csv`: summary of the submission citation audit.
-- `protocols/`: protocol notes and future machine-readable protocol definitions.
-- `supplementary/`: standalone supplementary appendices A-E for submission.
-- `scripts/`: reproducibility and audit scripts.
+- `supplementary/appendix.pdf`: standalone Supplementary Material corresponding to the manuscript snapshot.
 
 ## Appendix Map
 
@@ -27,13 +25,15 @@ This repository maintains the structured research materials behind the review's 
 
 This repository contains metadata, evidence links, protocol descriptions, and derived tables only. It does not redistribute dataset images, videos, raw surveillance footage, personally identifiable information, or files that require a release agreement. Source-specific terms and redistribution restrictions remain controlling.
 
-Statements such as "no explicit statement found in listed evidence sources" mean that no clear statement was located in the listed sources as of the checking date; they do not establish that the underlying practice or restriction does not exist.
+The label "Not explicitly reported in the listed evidence sources (checked YYYY-MM-DD)" means that no clear statement was located in the listed sources as of the checking date; it does not establish that the underlying practice or restriction does not exist.
 
 ## Manuscript Snapshot
 
-The version corresponding to the submitted manuscript is archived as [Release `v1.0-paper-submission`](https://github.com/Trans1010/person-reid-datasets-methods-protocols/releases/tag/v1.0-paper-submission). The `main` branch may receive later verification updates; those updates do not change the evidence snapshot associated with that release.
+The version corresponding to the submitted manuscript is archived as [Release `v1.1-paper-submission`](https://github.com/Trans1010/person-reid-datasets-methods-protocols/releases/tag/v1.1-paper-submission). The `main` branch may receive later verification updates; those updates do not change the evidence snapshot associated with that release.
 
-Registry entries in the manuscript and supplementary material were last verified on 4 September 2026. The literature search in Table S1 was last updated on 4 August 2026.
+Registry entries in the manuscript and supplementary material were last verified on 4 September 2026. The primary literature search covered 1 January 2007–4 August 2026, followed by an update search completed on 17 September 2026.
+
+The snapshot uses the 118-reference numbering of the submitted manuscript. Citation numbers in Appendices A–E and the source manifest correspond to that reference list.
 
 ## Citation
 
@@ -41,4 +41,4 @@ Please cite the associated review manuscript and, when referring to a specific d
 
 Repository: https://github.com/Trans1010/person-reid-datasets-methods-protocols
 
-Last local audit: 2026-09-09.
+Last repository audit: 2026-09-17.
