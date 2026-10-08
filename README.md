@@ -35,7 +35,7 @@ The label "Not explicitly reported in the listed evidence sources (checked YYYY-
 
 ## Manuscript Snapshot
 
-The version corresponding to the current 88-reference manuscript is archived as [Release `v1.2-paper-submission`](https://github.com/Trans1010/person-reid-datasets-methods-protocols/releases/tag/v1.2-paper-submission). The `main` branch may receive later verification updates; those updates do not change the evidence snapshot associated with that release.
+The version corresponding to the current 88-reference manuscript is archived as [Release `v1.2.1-paper-submission`](https://github.com/Trans1010/person-reid-datasets-methods-protocols/releases/tag/v1.2.1-paper-submission). The `main` branch may receive later verification updates; those updates do not change the evidence snapshot associated with that release.
 
 Registry entries in the manuscript and supplementary material were last verified on 4 September 2026. The primary literature search covered 1 January 2007–4 August 2026, followed by an update search completed on 17 September 2026.
 
@@ -44,6 +44,8 @@ The snapshot uses the current manuscript's 88-reference numbering. Numerical cit
 The A-E tables and source manifest were regenerated from the current supplementary LaTeX source using stable citation keys, rather than renumbering the old public CSVs by position. The version audit was completed on 8 October 2026; this does not change the historical evidence-checking dates above. `scripts/sync_submission.py` reproduces the export when supplied with the matching manuscript source directory.
 
 Release `v1.1-paper-submission` remains a historical snapshot of the earlier 118-reference version and must not be used to interpret citations in the current manuscript.
+
+Release `v1.2.1-paper-submission` also supersedes the initial v1.2 synchronization snapshot. It fixes CSV line-ending reproducibility so the recorded SHA-256 checksums match the files downloaded from GitHub. CSV exports use LF line endings, enforced by `.gitattributes`.
 
 ## Citation
 

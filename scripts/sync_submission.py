@@ -12,7 +12,7 @@ import shutil
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
-RELEASE = "v1.2-paper-submission"
+RELEASE = "v1.2.1-paper-submission"
 
 
 def read(path):
@@ -21,7 +21,7 @@ def read(path):
 
 def save_csv(path, headers, rows):
     with path.open("w", encoding="utf-8", newline="") as stream:
-        writer = csv.writer(stream)
+        writer = csv.writer(stream, lineterminator="\n")
         writer.writerow(headers)
         writer.writerows(rows)
 

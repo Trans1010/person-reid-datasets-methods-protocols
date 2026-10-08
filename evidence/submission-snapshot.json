@@ -1,5 +1,5 @@
 {
-  "release": "v1.2-paper-submission",
+  "release": "v1.2.1-paper-submission",
   "main_references": 88,
   "supplementary_only_references": 5,
   "main_pdf_filename": "Manuscript-submission-synced.pdf",
@@ -60,16 +60,16 @@
     "ref99"
   ],
   "sha256": {
-    "evidence/citation-audit-summary.csv": "32659725b7ff8180b10dea5371c1c4348a79e82652788fbe19c40a7b3ee65446",
-    "evidence/citation-map.csv": "a527c30bf940170a2aa06ca06533e2183725a81ce58a8f7a3e73eb1c16bde36f",
-    "evidence/main-references.csv": "c6a18410963a743c8e96ff7aff75c422574ce4f6d1bb2da0418d188a1a3a2133",
-    "evidence/source-manifest.csv": "307599a8ad67cb6334ff5899fd4bb8693e85922855c2ca7f2ee56ede43fc7eaa",
-    "evidence/supplementary-references.csv": "5f4532394fa85b25c6c5ad41f6927627233265f719b0b56135cf4373d782a149",
-    "supplementary/appendix.pdf": "7b3ffdefdb39862890b2c5b5f3d3870f503d2f7a6ed3fd8d5d854f6add8252dd",
-    "tables/appendix-a-datasets.csv": "781b212e6c86cf6e6840432f635d5cb43ca0afb9b68ba494a32f96c76f9233cb",
-    "tables/appendix-b-method-evidence.csv": "aaa33385deef1cd7a821cb73fed27274d808b647b10140dd97dd85de409795dd",
-    "tables/appendix-c-availability-ethics.csv": "1bda9859c10b634fbe5c035d5d99850f93b2eb6a2dec7b1f1dfc20f9b5b898ea",
-    "tables/appendix-d-mp-reid-directions.csv": "e3844ab3c178b147a988c6b87da2a077829b5316c718e1f72998c73982d6fb04",
-    "tables/appendix-e-protocol-registry.csv": "f0ada7a8bb11f757a7615a9ddf439dd9d44160f7d4d02530eafc9dbfc5814800"
+    "evidence/citation-audit-summary.csv": "3be62c113d7d50e45965dce24b5bde48b29b5cd0557c883f696957be2045ffdd",
+    "evidence/citation-map.csv": "da4661b752b6028af520efe328dbe591c5ad1ccc8e7ce01425949332ae56ebfd",
+    "evidence/main-references.csv": "c6b52b9c3e2a7ebccf60ea973068dba98659a14f2237994a64bd335a01dc4f38",
+    "evidence/source-manifest.csv": "12cff2b97f671a82ab4f8e3fdc8e24e7b2ad89885972087b665b5bd89e09cd1f",
+    "evidence/supplementary-references.csv": "811af76149d730f5163b08baa66d364d9f38a148ae8329f2835fe7e33f0c0151",
+    "supplementary/appendix.pdf": "cd915c937160fb444ae7d45960b7b6f9250b7111f7ec9f9833a7fea0e4c58072",
+    "tables/appendix-a-datasets.csv": "9cd562d54c83c126c2a868ef0218f31658d5d318306711c965d4ff0397b47755",
+    "tables/appendix-b-method-evidence.csv": "4433901596a2af21fdefb4a6911e7fb511d05354d218e35bd8edf2fe08dbfd8f",
+    "tables/appendix-c-availability-ethics.csv": "b963771e596496ed06b26282eadf403a1b70e9a6b9c63c1e1223cfc40144b9fe",
+    "tables/appendix-d-mp-reid-directions.csv": "b12a87c7d8cffafa4adaa738fa95396c1b8fce2c287dbcd64d71bc4a2c263d41",
+    "tables/appendix-e-protocol-registry.csv": "3dce8df450db4b0da52f76339e38c5b6060776afb5b93893808a4a22b72f6a40"
   }
 }
