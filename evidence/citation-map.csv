@@ -1,0 +1,119 @@
+stable_key,original_118_reference_number,current_citation,status,title
+ref1,1,1,main,Deep Learning for Person Re-Identification: A Survey and Outlook
+ref2,2,,omitted,Deep Learning-Based Person Re-Identification Methods: A Survey and Outlook of Recent Works
+ref3,3,2,main,Person Re-Identification: A Retrospective on Domain Specific Open Challenges and Future Trends
+ref4,4,15,main,Viewpoint Invariant Pedestrian Recognition with an Ensemble of Localized Features
+ref5,5,16,main,DeepReID: Deep Filter Pairing Neural Network for Person Re-Identification
+ref6,6,18,main,Scalable Person Re-Identification: A Benchmark
+ref7,7,19,main,Person Transfer GAN to Bridge Domain Gap for Person Re-Identification
+ref8,8,3,main,Multi-Modal Multi-Platform Person Re-Identification: Benchmark and Method
+ref9,9,4,main,Semantic-Driven Visual Progressive Refinement for Aerial-Ground Person ReID: A Challenging Large-Scale Benchmark
+ref10,10,5,main,WHU-MARS: A Multispectral Aerial-Ground Benchmark Towards Any-Scenario Person Re-Identification
+ref11,11,9,main,A Survey of Open-World Person Re-Identification
+ref12,12,10,main,Deep Learning for Visible-Infrared Cross-Modality Person Re-Identification: A Comprehensive Review
+ref13,13,,omitted,A Comprehensive Survey of Visible Infrared Person Re-Identification from an Application Perspective
+ref14,14,,omitted,Occluded Person Re-Identification with Deep Learning: A Survey and Perspectives
+ref15,15,,omitted,Transformer for Object Re-identification: A Survey
+ref16,16,11,main,From Attributes to Natural Language: A Survey and Foresight on Text-Based Person Re-Identification
+ref17,17,12,main,Domain Generalization for Person Re-Identification: A Survey Towards Domain-Agnostic Person Matching
+ref18,18,,omitted,A Review of Recent Techniques for Person Re-Identification
+ref19,19,6,main,"A Comprehensive Survey on Person Re-identification: Methods, Challenges, and Future Research Directions"
+ref20,20,7,main,Datasheets for Datasets
+ref21,21,8,main,Documenting Computer Vision Datasets: An Invitation to Reflexive Data Practices
+ref22,22,13,main,From Detection to Identity Preservation: A Pipeline--Scenario--Protocol--Readiness Review of Datasets for Visual Multi-Person Tracking and Re-Identification
+ref23,23,23,main,RGB-Infrared Cross-Modality Person Re-Identification
+ref24,24,25,main,Person Re-Identification in Aerial Imagery
+ref25,25,17,main,Re-Ranking Person Re-Identification With k-Reciprocal Encoding
+ref26,26,44,main,In Defense of the Triplet Loss for Person Re-Identification
+ref27,27,,omitted,FastReID: A PyTorch Toolbox for General Instance Re-Identification
+ref28,28,49,main,TransReID: Transformer-Based Object Re-Identification
+ref29,29,20,main,Camera Style Adaptation for Person Re-Identification
+ref30,30,,omitted,Self-Similarity Grouping: A Simple Unsupervised Cross Domain Adaptation Approach for Person Re-Identification
+ref31,31,37,main,Mutual Mean-Teaching: Pseudo Label Refinery for Unsupervised Domain Adaptation on Person Re-Identification
+ref32,32,38,main,Self-Paced Contrastive Learning with Hybrid Memory for Domain Adaptive Object Re-ID
+ref33,33,21,main,Distilling Consistent Relations for Multi-Source Domain Adaptive Person Re-Identification
+ref34,34,39,main,Style Normalization and Restitution for Generalizable Person Re-Identification
+ref35,35,40,main,Meta Batch-Instance Normalization for Generalizable Person Re-Identification
+ref36,36,22,main,Person Recognition System Based on a Combination of Body Images from Visible Light and Thermal Cameras
+ref37,37,24,main,Robust Multi-Modality Person Re-identification
+ref38,38,60,main,Rotation Invariant Transformer for Recognizing Object in UAVs
+ref39,39,26,main,UAV-Human: A Large Benchmark for Human Behavior Understanding With Unmanned Aerial Vehicles
+ref40,40,27,main,AG-ReID.v2: Bridging Aerial and Ground Views for Person Re-Identification
+ref41,41,14,main,View-Decoupled Transformer for Person Re-Identification under Aerial-Ground Camera Network
+ref42,42,28,main,Towards Anytime Retrieval: A Benchmark for Anytime Person Re-Identification
+ref43,43,29,main,MARS: A Video Benchmark for Large-Scale Person Re-Identification
+ref44,44,30,main,Person Re-Identification by Discriminative Selection in Video Ranking
+ref45,45,31,main,Learning Modal-Invariant and Temporal-Memory for Video-Based Visible-Infrared Person Re-Identification
+ref46,46,32,main,AG-VPReID: A Challenging Large-Scale Benchmark for Aerial-Ground Video-Based Person Re-Identification
+ref47,47,33,main,AG-VPReID.VIR: Bridging Aerial and Ground Platforms for Video-Based Visible-Infrared Person Re-ID
+ref48,48,34,main,Person Search With Natural Language Description
+ref49,49,35,main,DSSL: Deep Surroundings-Person Separation Learning for Text-Based Person Retrieval
+ref50,50,36,main,ReID5o: Achieving Omni Multi-Modal Person Re-Identification in a Single Model
+ref51,51,,omitted,Large Scale Metric Learning from Equivalence Constraints
+ref52,52,41,main,Person Re-Identification by Local Maximal Occurrence Representation and Metric Learning
+ref53,53,S1,supplementary-only,Human Reidentification with Transferred Metric Learning
+ref54,54,S2,supplementary-only,Locally Aligned Feature Transforms across Views
+ref55,55,42,main,On-the-Fly Feature Importance Mining for Person Re-Identification
+ref56,56,43,main,Learning Deep Feature Representations with Domain Guided Dropout for Person Re-Identification
+ref57,57,,omitted,Beyond Triplet Loss: A Deep Quadruplet Network for Person Re-Identification
+ref58,58,45,main,Bag of Tricks and a Strong Baseline for Deep Person Re-Identification
+ref59,59,46,main,Omni-Scale Feature Learning for Person Re-Identification
+ref60,60,47,main,Beyond Part Models: Person Retrieval with Refined Part Pooling (and a Strong Convolutional Baseline)
+ref61,61,,omitted,AlignedReID: Surpassing Human-Level Performance in Person Re-Identification (preprint)
+ref62,62,48,main,Learning Discriminative Features with Multiple Granularities for Person Re-Identification
+ref63,63,S3,supplementary-only,Unlabeled Samples Generated by GAN Improve the Person Re-Identification Baseline in Vitro
+ref64,64,,omitted,Horizontal Pyramid Matching for Person Re-Identification
+ref65,65,,omitted,Random Erasing Data Augmentation
+ref66,66,50,main,Dynamic Dual-Attentive Aggregation Learning for Visible-Infrared Person Re-Identification
+ref67,67,51,main,Channel Augmented Joint Learning for Visible-Infrared Recognition
+ref68,68,53,main,Diverse Embedding Expansion Network and Low-Light Cross-Modality Benchmark for Visible-Infrared Person Re-Identification
+ref69,69,,omitted,Infrared-Visible Cross-Modal Person Re-Identification with an X Modality
+ref70,70,52,main,RGB-Infrared Cross-Modality Person Re-Identification via Joint Pixel and Feature Alignment
+ref71,71,,omitted,Hi-CMD: Hierarchical Cross-Modality Disentanglement for Visible-Infrared Person Re-Identification
+ref72,72,54,main,Visible-Infrared Person Re-Identification via Semantic Alignment and Affinity Inference
+ref73,73,55,main,Cross-Modality Transformer for Visible-Infrared Person Re-Identification
+ref74,74,56,main,CLIP-Driven Semantic Discovery Network for Visible-Infrared Person Re-Identification
+ref75,75,57,main,Optimal Transport for Label-Efficient Visible-Infrared Person Re-Identification
+ref76,76,,omitted,Modality Synergy Complement Learning with Cascaded Aggregation for Visible-Infrared Person Re-Identification
+ref77,77,,omitted,Learning Memory-Augmented Unidirectional Metrics for Cross-Modality Person Re-Identification
+ref78,78,,omitted,PartMix: Regularization Strategy to Learn Part Discovery for Visible-Infrared Person Re-Identification
+ref79,79,58,main,DMANet: Dual-Modality Alignment Network for Visible--Infrared Person Re-Identification
+ref80,80,59,main,MixER: From Cross-Modal to Mixed-Modal Visible-Infrared Re-Identification
+ref81,81,61,main,Aerial-Ground Person Re-ID
+ref82,82,62,main,Bridging the Sky and Ground: Towards View-Invariant Feature Learning for Aerial-Ground Person Re-Identification
+ref83,83,63,main,View-Aware Semantic Alignment for Aerial-Ground Person Re-Identification
+ref84,84,64,main,SeCap: Self-Calibrating and Adaptive Prompts for Cross-view Person Re-Identification in Aerial-Ground Networks
+ref85,85,,omitted,AdaptFormer: Adapting Vision Transformers for Scalable Visual Recognition
+ref86,86,,omitted,Scaling Vision with Sparse Mixture of Experts
+ref87,87,65,main,CLIP-ReID: Exploiting Vision-Language Model for Image Re-Identification without Concrete Text Labels
+ref88,88,66,main,A Pedestrian Is Worth One Prompt: Towards Language Guidance Person Re-Identification
+ref89,89,67,main,Attribute-Guided Pedestrian Retrieval: Bridging Person Re-ID with Internal Attribute Variability
+ref90,90,68,main,Deep Cross-Modal Projection Learning for Image-Text Matching
+ref91,91,,omitted,Semantically Self-Aligned Network for Text-to-Image Part-aware Person Re-identification (preprint)
+ref92,92,69,main,Cross-Modal Implicit Relation Reasoning and Aligning for Text-to-Image Person Retrieval
+ref93,93,70,main,Instruct-ReID: A Multi-Purpose Person Re-Identification Task with Instructions
+ref94,94,71,main,Learning Transferable Visual Models from Natural Language Supervision
+ref95,95,,omitted,Learning to Prompt for Vision-Language Models
+ref96,96,,omitted,Conditional Prompt Learning for Vision-Language Models
+ref97,97,,omitted,DINOv2: Learning Robust Visual Features without Supervision
+ref98,98,,omitted,Visual Prompt Tuning
+ref99,99,82,main,Long-Term Cloth-Changing Person Re-identification
+ref100,100,83,main,DeepChange: A Long-Term Person Re-Identification Benchmark with Clothes Change
+ref101,101,84,main,Person Re-Identification by Contour Sketch Under Moderate Clothing Change
+ref102,102,S5,supplementary-only,When Person Re-Identification Meets Changing Clothes
+ref103,103,85,main,An In-Depth Exploration of Person Re-Identification and Gait Recognition in Cloth-Changing Conditions
+ref104,104,S4,supplementary-only,"Performance Measures and a Data Set for Multi-Target, Multi-Camera Tracking"
+ref105,105,72,main,Confidence Guided Semi-Supervised Cross-Modality Person Re-Identification
+ref106,106,,omitted,LiDAR-based Person Re-Identification
+ref107,107,73,main,Open-Set Person Re-Identification
+ref108,108,74,main,Towards Open-World Person Re-Identification by One-Shot Group-Based Verification
+ref109,109,75,main,Adversarial Open-World Person Re-Identification
+ref110,110,76,main,Lifelong Person Re-Identification via Adaptive Knowledge Accumulation
+ref111,111,77,main,Lifelong Person Re-Identification via Knowledge Refreshing and Consolidation
+ref112,112,78,main,Learning Continual Compatible Representation for Re-Indexing Free Lifelong Person Re-Identification
+ref113,113,79,main,Distribution-Aware Knowledge Prototyping for Non-Exemplar Lifelong Person Re-Identification
+ref114,114,80,main,DKC: Differentiated Knowledge Consolidation for Cloth-Hybrid Lifelong Person Re-Identification
+ref115,115,81,main,TP-LReID: Lifelong Person Re-Identification Using Text Prompts
+ref116,116,86,main,"Towards Cross-Modal Preservation, Consistency and Alignment for Privacy-Preserving Visible-Infrared Person Re-Identification"
+ref117,117,87,main,Privacy preserving person re-identification via anonymizing diffusion model
+ref118,118,88,main,From Laboratory to Real World: A New Benchmark Towards Privacy-Preserved Visible-Infrared Person Re-Identification

@@ -1,13 +1,13 @@
-﻿Number,Setting category,Query→Gallery,Does the modality change?,Does the platform change?
-1 [8],Platform change only,UR→GR,No,Yes
-2 [8],Platform change only,GR→UR,No,Yes
-3 [8],Modality change only,GI→GR,Yes,No
-4 [8],Modality change only,GR→GI,Yes,No
-5 [8],Modality change only,UT→UR,Yes,No
-6 [8],Modality change only,UR→UT,Yes,No
-7 [8],Simultaneous modality and platform changes,UR→GI,Yes,Yes
-8 [8],Simultaneous modality and platform changes,GI→UR,Yes,Yes
-9 [8],Simultaneous modality and platform changes,UT→GR,Yes,Yes
-10 [8],Simultaneous modality and platform changes,GR→UT,Yes,Yes
-11 [8],Simultaneous modality and platform changes,UT→GI,Yes,Yes
-12 [8],Simultaneous modality and platform changes,GI→UT,Yes,Yes
+Number,Setting category,Query→Gallery,Does the modality change?,Does the platform change?
+1 [3],Platform change only,UR→GR,No,Yes
+2 [3],Platform change only,GR→UR,No,Yes
+3 [3],Modality change only,GI→GR,Yes,No
+4 [3],Modality change only,GR→GI,Yes,No
+5 [3],Modality change only,UT→UR,Yes,No
+6 [3],Modality change only,UR→UT,Yes,No
+7 [3],Simultaneous modality and platform changes,UR→GI,Yes,Yes
+8 [3],Simultaneous modality and platform changes,GI→UR,Yes,Yes
+9 [3],Simultaneous modality and platform changes,UT→GR,Yes,Yes
+10 [3],Simultaneous modality and platform changes,GR→UT,Yes,Yes
+11 [3],Simultaneous modality and platform changes,UT→GI,Yes,Yes
+12 [3],Simultaneous modality and platform changes,GI→UT,Yes,Yes

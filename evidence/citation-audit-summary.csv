@@ -1,6 +1,10 @@
-﻿item,value
-citation format,numeric by first appearance
-numeric references retained,118
-unused bibliography entries removed,29
-temporary citation keys retained,0
-audit date,2026-09-17
+item,value
+snapshot release,v1.2-paper-submission
+citation format,numeric by first appearance in the 88-reference manuscript
+main references,88
+supplementary-only references,5
+source of registry numbering,compiled LaTeX citation keys and registry-reference-labels-condensed.tex
+appendices in supplementary PDF,A-G
+audit date,2026-10-08
+registry evidence verification date,2026-09-04
+scope,version and citation synchronisation; no new dataset-availability verification
